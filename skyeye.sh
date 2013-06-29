@@ -14,6 +14,7 @@ make
 make install
 
 cd ..
+wget http://downloads.sourceforge.net/project/skyeye/skyeye/skyeye-1.3.5/skyeye-1.3.5_rc1.tar.bz2?r=&ts=1372508788&use_mirror=nchc
 tar xjvf package/skyeye-1.3.5_rc1.tar.bz2
 cd skyeye-1.3.5_rc1
 ./autogen.sh
