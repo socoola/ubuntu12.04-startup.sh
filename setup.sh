@@ -3,7 +3,9 @@ apt-get install zlib1g-dev
 apt-get install tftp
 apt-get install g++
 mkdir /tftpboot
-chown -R thomas:thomas /tftpboot
+rm /bin/sh
+ln -s /bin/bash /bin/sh
+chown -R ${USER}:${USER} /tftpboot
 apt-get install libncurses5-dev
 sudo apt-get install subversion
 sudo apt-get install tftpd
